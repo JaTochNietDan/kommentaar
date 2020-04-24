@@ -16,7 +16,7 @@ Goals:
 - Impossible to produce invalid OpenAPI files; prefer being strict over
   flexible.
 
-Non-goals:
+Non-goals: 
 
 - Support every single last OpenAPI feature. Some features, such as different
   return values with `anyOf`, don't map well to how Go works, and supporting it
